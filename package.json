@@ -1,0 +1,62 @@
+{
+  "name": "brunch-angular-issues",
+  "description": "Demo for Brunch issues 1652/1653",
+  "author": "Colin Bate <colin@colinbate.com>",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colinbate/ng2-brunch"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build",
+    "build:prod": "brunch build --production",
+    "test": "tsc && tslint app/**/*.ts app/*.ts",
+    "lint": "tslint app/**/*.ts app/*.ts"
+  },
+  "license": "MIT",
+  "keywords": [
+    "brunch",
+    "skeleton",
+    "angular",
+    "ng2",
+    "angular2",
+    "typescript",
+    "starter",
+    "template",
+    "generator"
+  ],
+  "dependencies": {
+    "@angular/common": "^2.4.5",
+    "@angular/compiler": "^2.4.5",
+    "@angular/core": "^2.4.5",
+    "@angular/forms": "^2.4.5",
+    "@angular/http": "^2.4.5",
+    "@angular/platform-browser": "^2.4.5",
+    "@angular/platform-browser-dynamic": "^2.4.5",
+    "@angular/router": "^3.4.5",
+    "@types/es6-shim": "^0.31.32",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^5.0.3",
+    "tslib": "^1.4.0",
+    "zone.js": "^0.7.4"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.41",
+    "auto-reload-brunch": "2.7.1",
+    "brunch": "2.6.0 - 2.8.0 || >2.8.1",
+    "brunch-typescript": "2.1.0",
+    "clean-css-brunch": "^2.0.0",
+    "codelyzer": "2.0.0-beta.4",
+    "copyfilemon-brunch": "^3.3.0",
+    "environment-brunch": "^1.0.0",
+    "inline-css-brunch": "^2.0.0",
+    "jasmine-core": "^2.5.2",
+    "javascript-brunch": "^2.0.0",
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.5",
+    "uglify-js-brunch": "^2.0.1"
+  }
+}
