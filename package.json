@@ -46,7 +46,7 @@
   "devDependencies": {
     "@types/jasmine": "^2.5.41",
     "auto-reload-brunch": "2.7.1",
-    "brunch": "2.6.0 - 2.8.0 || >2.8.1",
+    "brunch": "2.8.2",
     "brunch-typescript": "2.1.0",
     "clean-css-brunch": "^2.0.0",
     "codelyzer": "2.0.0-beta.4",
@@ -55,6 +55,7 @@
     "inline-css-brunch": "^2.0.0",
     "jasmine-core": "^2.5.2",
     "javascript-brunch": "^2.0.0",
+    "less-brunch": "^2.8.0",
     "tslint": "^4.4.2",
     "typescript": "^2.1.5",
     "uglify-js-brunch": "^2.0.1"
